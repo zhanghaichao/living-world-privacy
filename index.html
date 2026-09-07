@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#081712">
+  <meta name="description" content="Living World privacy policy: what data the Android app uses, why it is used, where it goes, and how to delete it.">
+  <title>Privacy Policy · Living World</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#policy">Skip to policy</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Living World privacy home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>Living World</span>
+    </a>
+    <nav aria-label="Privacy navigation">
+      <a class="active" href="./" data-i18n="navPolicy">Privacy policy</a>
+      <a href="data-deletion.html" data-i18n="navDelete">Delete data</a>
+    </nav>
+    <button class="language" type="button" aria-label="Switch language" aria-pressed="false">
+      <span class="language-en">中文</span><span class="language-zh">English</span>
+    </button>
+  </header>
+
+  <main id="policy">
+    <section class="intro">
+      <div class="intro-copy">
+        <div class="eyebrow" data-i18n="eyebrow">LIVING WORLD · PRIVACY POLICY</div>
+        <h1 data-i18n="title">Your world stays yours.</h1>
+        <p class="lede" data-i18n="lede">Living World is designed without a developer-operated account system, advertising network, analytics SDK, or app backend. This policy explains the limited data used for weather, optional AI creation, and Google Play subscriptions.</p>
+        <div class="meta">
+          <span><b data-i18n="effectiveLabel">Effective</b> <time datetime="2026-09-07" data-i18n="effectiveDate">September 7, 2026</time></span>
+          <span><b data-i18n="appLabel">App</b> Living World for Android</span>
+          <span><b data-i18n="packageLabel">Package</b> com.livingworld.app</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true"><img src="assets/living-world-cover.jpg" alt=""></div>
+    </section>
+
+    <section class="summary" aria-labelledby="summary-title">
+      <div>
+        <span class="number">01</span>
+        <h2 id="summary-title" data-i18n="summaryTitle">The short version</h2>
+      </div>
+      <div class="summary-grid">
+        <article><span class="icon" aria-hidden="true">⌁</span><h3 data-i18n="summaryOneTitle">No developer account</h3><p data-i18n="summaryOneBody">You do not create an account with us, and we do not operate a server that stores your profile or creations.</p></article>
+        <article><span class="icon" aria-hidden="true">◎</span><h3 data-i18n="summaryTwoTitle">Location is optional</h3><p data-i18n="summaryTwoBody">Approximate location is used only after you enable automatic weather and grant permission.</p></article>
+        <article><span class="icon" aria-hidden="true">◇</span><h3 data-i18n="summaryThreeTitle">AI is your choice</h3><p data-i18n="summaryThreeBody">AI prompts go only to the HTTPS provider you configure. Your API keys remain encrypted on your device.</p></article>
+        <article><span class="icon" aria-hidden="true">×</span><h3 data-i18n="summaryFourTitle">No ads or tracking</h3><p data-i18n="summaryFourBody">The app does not include advertising or analytics SDKs and does not sell personal data.</p></article>
+      </div>
+    </section>
+
+    <section class="policy-block" aria-labelledby="data-title">
+      <div class="section-heading"><span class="number">02</span><h2 id="data-title" data-i18n="dataTitle">Data used by the app</h2></div>
+      <div class="data-list">
+        <article>
+          <div><span class="tag optional" data-i18n="optional">OPTIONAL</span><h3 data-i18n="locationTitle">Approximate location & weather</h3></div>
+          <div><p data-i18n="locationBody">If you turn on automatic weather, Android supplies an approximate location. The app rounds the coordinates to two decimal places and sends them over HTTPS to WeatherAPI to request current conditions. The response may include a nearby place name, weather conditions, and observation time.</p>
+          <dl><div><dt data-i18n="purpose">Purpose</dt><dd data-i18n="locationPurpose">Adapt the wallpaper to local weather.</dd></div><div><dt data-i18n="retention">On-device retention</dt><dd data-i18n="locationRetention">Last coordinates and weather response remain cached until you clear weather data or uninstall the app.</dd></div><div><dt data-i18n="control">Your control</dt><dd data-i18n="locationControl">Disable automatic weather, revoke location permission, or use “Clear location & weather data” in the app.</dd></div></dl></div>
+        </article>
+        <article>
+          <div><span class="tag optional" data-i18n="optional">OPTIONAL</span><h3 data-i18n="aiTitle">AI prompts, settings & generated images</h3></div>
+          <div><p data-i18n="aiBody">The Open World feature works only after you enter a compatible HTTPS provider, models, and API key. Confirmed descriptions and recent creation dialogue are sent to that provider. Images returned by the provider are downloaded to your device. Imported photos are processed locally and are not sent to an AI provider unless you deliberately include their information in a prompt.</p>
+          <dl><div><dt data-i18n="purpose">Purpose</dt><dd data-i18n="aiPurpose">Refine a scene description and generate a wallpaper you requested.</dd></div><div><dt data-i18n="retention">On-device retention</dt><dd data-i18n="aiRetention">Provider settings and keys are encrypted with Android Keystore and excluded from cloud backup. Drafts and creations remain until removed or the app is uninstalled.</dd></div><div><dt data-i18n="control">Your control</dt><dd data-i18n="aiControl">You choose the provider and can clear its configuration or remove creations. Provider-side retention is governed by the provider you selected.</dd></div></dl></div>
+        </article>
+        <article>
+          <div><span class="tag service" data-i18n="service">SERVICE</span><h3 data-i18n="billingTitle">Google Play subscription information</h3></div>
+          <div><p data-i18n="billingBody">Purchases are processed by Google Play. The app checks product, purchase, acknowledgement, and entitlement status through Google Play Billing and stores only a local access level and last-check time. We do not receive or store your payment card details.</p>
+          <dl><div><dt data-i18n="purpose">Purpose</dt><dd data-i18n="billingPurpose">Activate paid world limits and restore purchases.</dd></div><div><dt data-i18n="retention">On-device retention</dt><dd data-i18n="billingRetention">Local entitlement status remains until app data is cleared or the app is uninstalled; Google applies its own retention policy.</dd></div><div><dt data-i18n="control">Your control</dt><dd data-i18n="billingControl">Manage or cancel subscriptions in Google Play.</dd></div></dl></div>
+        </article>
+        <article>
+          <div><span class="tag local" data-i18n="localOnly">LOCAL ONLY</span><h3 data-i18n="localTitle">App settings & creative files</h3></div>
+          <div><p data-i18n="localBody">Scene choices, animation settings, imported photos, drafts, and generated wallpapers are stored on your device. Photos and AI data are excluded from cloud backup. Depending on Android backup settings, limited non-sensitive preferences may be included in a device backup managed by the operating system.</p>
+          <dl><div><dt data-i18n="purpose">Purpose</dt><dd data-i18n="localPurpose">Remember your wallpaper and app preferences.</dd></div><div><dt data-i18n="sharing">Sharing</dt><dd data-i18n="localSharing">Not shared by us. Export happens only when you choose a destination through Android’s system file picker.</dd></div><div><dt data-i18n="control">Your control</dt><dd data-i18n="localControl">Reset settings, remove creations, clear app data, or uninstall the app.</dd></div></dl></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="two-column" aria-label="Additional privacy information">
+      <article>
+        <span class="number">03</span>
+        <h2 data-i18n="sharingTitle">When data leaves your device</h2>
+        <p data-i18n="sharingBody">We do not sell personal data. Data leaves your device only to provide a feature you choose:</p>
+        <ul>
+          <li data-i18n="sharingWeather"><strong>WeatherAPI</strong> receives an approximate coordinate and request metadata when automatic weather is enabled.</li>
+          <li data-i18n="sharingAi"><strong>Your AI provider</strong> receives the prompts, recent creation context, model names, and API credentials needed for your request.</li>
+          <li data-i18n="sharingGoogle"><strong>Google Play</strong> handles subscription purchases and may process device, account, and transaction information under Google’s policies.</li>
+        </ul>
+        <p data-i18n="providerNotice">These providers process information under their own terms and privacy policies. Choose an AI provider only after reviewing its practices.</p>
+      </article>
+      <article>
+        <span class="number">04</span>
+        <h2 data-i18n="securityTitle">Security & retention</h2>
+        <p data-i18n="securityBody">Network requests use HTTPS. AI credentials are encrypted at rest using a key held by Android Keystore. Sensitive app files and weather caches are excluded from cloud backup. No method of storage or transmission is completely secure, so we limit data use to the features described here.</p>
+        <p data-i18n="retentionBody">The developer does not keep a server-side copy because Living World has no developer-operated backend. On-device data remains until you use the available controls, clear app data, or uninstall. Third parties set their own retention periods.</p>
+      </article>
+      <article>
+        <span class="number">05</span>
+        <h2 data-i18n="rightsTitle">Your choices & deletion</h2>
+        <p data-i18n="rightsBody">You can use manual weather without location, deny or revoke location access in Android Settings, clear cached weather data, clear AI credentials, remove custom worlds, manage subscriptions in Google Play, or delete all local app data by uninstalling.</p>
+        <p><a class="text-link" href="data-deletion.html" data-i18n="deletionLink">Open the data deletion guide →</a></p>
+      </article>
+      <article>
+        <span class="number">06</span>
+        <h2 data-i18n="childrenTitle">Children’s privacy</h2>
+        <p data-i18n="childrenBody">Living World is not directed to children under 13 (or the minimum age required in their country), and we do not knowingly collect personal information from children. If you believe a child has provided information through a third-party service used with the app, contact that provider and us.</p>
+      </article>
+    </section>
+
+    <section class="changes">
+      <div><span class="number">07</span><h2 data-i18n="changesTitle">Changes to this policy</h2></div>
+      <p data-i18n="changesBody">We may update this policy when the app’s features or legal requirements change. The latest version will remain at this URL, with a revised effective date. Material changes will be communicated in the app or store listing when appropriate.</p>
+    </section>
+
+    <section class="contact" aria-labelledby="contact-title">
+      <p class="eyebrow" data-i18n="contactEyebrow">QUESTIONS OR PRIVACY REQUESTS</p>
+      <h2 id="contact-title" data-i18n="contactTitle">Talk to the developer.</h2>
+      <p><span data-i18n="developer">Developer</span>: Jocelyn<br><span data-i18n="email">Email</span>: <a href="mailto:seansheaton@gmail.com">seansheaton@gmail.com</a></p>
+    </section>
+
+    <aside class="weather-note">
+      <strong data-i18n="weatherNoteTitle">Weather information notice</strong>
+      <p data-i18n="weatherNoteBody">Weather information is for general information only. Conditions can be uncertain or inaccurate for a specific place or time. Do not rely on this app as the sole source for safety-critical decisions; consult official weather services and authorities.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <span>© 2026 Living World</span>
+    <span class="footer-links"><a href="https://www.weatherapi.com/privacy.aspx" rel="noreferrer">WeatherAPI Privacy</a><a href="https://policies.google.com/privacy" rel="noreferrer">Google Privacy</a></span>
+  </footer>
+  <script src="assets/site.js"></script>
+</body>
+</html>
